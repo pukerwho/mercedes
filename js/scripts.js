@@ -5,11 +5,18 @@ $('.toogle-menu').on('click', function(e) {
   $('.menu li').toggleClass('animate-left');
 });
 
-$(window).scroll(function(){
-  var h_scroll = $(this).scrollTop();
-  if (h_scroll > 56) {
-    $('header').addClass('header__fixed')
-  } else {
-    $('header').removeClass('header__fixed')
-  }
-})
+//АНИМАЦИЯ
+AOS.init({});
+
+var mySwiper = new Swiper ('.swiper-main', {
+  slidesPerView: 'auto',
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+      delay: 6000,
+  },
+  navigation: {
+    nextEl: '.swiper-slide-button-next',
+    prevEl: '.swiper-slide-button-prev',
+  },
+});

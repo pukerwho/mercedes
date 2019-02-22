@@ -18,13 +18,7 @@ function crb_attach_theme_options() {
         Field::make( 'rich_text', 'crb_aboutus_text', 'Текст О НАС' ),
     ) )
     ->add_tab( __('Контакты'), array(
-        Field::make( 'complex', 'crb_contacts', __( 'Контактная информация' ) )
-            ->set_layout( 'tabbed-horizontal')
-            ->add_fields( array(
-                Field::make( 'text', 'crb_contacts_office', __('Офис') ),
-                Field::make( 'text', 'crb_contacts_phone', __('Номер телефона') ),
-                Field::make( 'text', 'crb_contacts_name', __('Имя') ),
-        ) ),
+        Field::make( 'text', 'crb_contact_phone', 'Номер телефона' )->set_attribute( 'type', 'number' ),
     ) );
 }
 

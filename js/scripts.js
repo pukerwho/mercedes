@@ -1,12 +1,7 @@
-$('.toogle-menu').on('click', function(e) {
-  e.preventDefault;
-  $(this).toggleClass('toogle-menu_active');
-  $('.slide-menu').toggleClass('slide-menu_active');
-  $('.menu li').toggleClass('animate-left');
-});
-
 //АНИМАЦИЯ
-AOS.init({});
+$(document).ready(function() {    
+  $("body").css("opacity", "1");
+});
 
 var mySwiper = new Swiper ('.swiper-main', {
   slidesPerView: 'auto',

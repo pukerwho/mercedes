@@ -26,7 +26,7 @@ if( !isset( $content_width ) ) {
 
 require_once get_template_directory() . '/inc/carbon-fields/carbon-fields-plugin.php';
 require_once get_template_directory() . '/inc/custom-fields/settings-meta.php';
-require_once get_template_directory() . '/inc/custom-fields/apartments-meta.php';
+require_once get_template_directory() . '/inc/custom-fields/news-meta.php';
 require_once get_template_directory() . '/inc/custom-fields/pages-meta.php';
 require_once get_template_directory() . '/inc/TGM/example.php';
 

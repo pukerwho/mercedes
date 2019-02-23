@@ -26,7 +26,7 @@
 					<div class="row">
 						<div class="col-md-8">
 							<div class="swiper-slider__title">
-								Заголовок слайдера №3
+								Заголовок слайдера №2
 							</div>
 							<div class="swiper-slider__description mb-4">
 								Текст на слайдере

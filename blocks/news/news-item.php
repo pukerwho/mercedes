@@ -8,7 +8,7 @@
 				<?php the_title(); ?>
 			</div>
 			<div class="news__item__text">
-				<?php the_content(); ?>
+				<?php echo carbon_get_the_post_meta('crb_news_description'); ?>
 			</div>
 			<div class="news__item__more">
 				<a href="<?php the_permalink(); ?>">

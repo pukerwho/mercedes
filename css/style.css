@@ -9029,7 +9029,13 @@ input {
     .header__social li:last-child {
       margin-right: 2rem; }
 
-.news .col-md-12:nth-child(2n) a {
+.news__block {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+.news .col-md-12:nth-child(2n) .news__block {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -webkit-flex-direction: row-reverse;
@@ -9087,11 +9093,11 @@ input {
     padding: 0 4rem; }
   .news__item__title {
     font-size: 2rem;
-    line-height: 2.1rem;
+    line-height: 2.3rem;
     margin-bottom: 1rem; }
   .news__item__text {
     font-size: 1.2rem;
-    line-height: 1.3rem;
+    line-height: 1.8rem;
     margin-bottom: 1.5rem; }
 
 .b_about {

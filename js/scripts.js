@@ -1,6 +1,13 @@
 //АНИМАЦИЯ
-$(document).ready(function() {    
-  $("body").css("opacity", "1");
+$(document).ready(function() {
+  var change_page_animate = function(){
+   $('.change-page').addClass('change-page-animate');  
+  }
+  var wrapper_opacity = function(){
+    $(".wrapper").css("opacity", "1");
+  }
+  change_page_animate();
+  setTimeout(wrapper_opacity, 1000);
 });
 
 var mySwiper = new Swiper ('.swiper-main', {

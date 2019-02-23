@@ -18,9 +18,11 @@
     wp_head();
 	?>
 </head>
+
 <body <?php echo body_class(); ?>>
   <!-- <div class="preloader"></div> -->
-  
+  <div class="change-page"></div>
+  <div class="wrapper">
   <header id="header" class="header" role="banner">
     <div class="container">
 

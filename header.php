@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 
 <head>
@@ -21,35 +21,51 @@
 
 <body <?php echo body_class(); ?>>
   <!-- <div class="preloader"></div> -->
-  <div class="change-page"></div>
   <div class="wrapper">
   <header id="header" class="header" role="banner">
-    <div class="container">
-
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="header__logo">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="header__left d-flex align-items-center">
+              <div class="header__logo">
+                <a href="<?php echo home_url(); ?>">
+                  <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo1.png" alt="">  
+                </a>
+              </div>
+              <div class="header__menu">
+                <?php wp_nav_menu([
+                  'theme-location' => 'head_left_menu',
+                  'container' => 'nav',
+                  'container_class' => 'head_menu',
+                  'menu_id' => 'ul_head_menu'
+                ]); ?>
+              </div>
+            </div>
+            <div class="header__logo header__center">
               <a href="<?php echo home_url(); ?>">
-                <img src="<?php echo carbon_get_theme_option('crb_header_logo'); ?>" alt="">  
+                <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo2.png" alt="">  
               </a>
             </div>
-            <div class="header__menu">
-              <?php wp_nav_menu([
-                'theme-location' => 'head_menu',
-                'container' => 'nav',
-                'container_class' => 'head_menu',
-                'menu_id' => 'ul_head_menu'
-              ]); ?>
+            <div class="header__right d-flex align-items-center">
+              <div class="header__menu">
+                <?php wp_nav_menu([
+                  'theme-location' => 'head_right_menu',
+                  'container' => 'nav',
+                  'container_class' => 'head_menu',
+                  'menu_id' => 'ul_head_menu'
+                ]); ?>
+              </div>
+              <div class="header__social">
+                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </div>
+              <div class="header__contact">
+                <a href="tel:12345678">12345678</a>
+              </div>
             </div>
-            <div class="header__social">
-              <li><a href="#"><i class="fab fa-vk"></i></a></li>
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            </div>
-            <div class="header__contact">
-              <a href="tel:12345678">12345678</a>
-            </div>
+            
           </div>
         </div>
       </div>

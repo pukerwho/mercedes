@@ -8,18 +8,6 @@ Template Name: О нас
 
 <div class="p_about">
 	<div class="container py-5">
-		<div class="row mb-4">
-			<div class="col-md-12 d-flex justify-content-center">
-				<div class="my-line"></div>
-			</div>
-		</div>
-		<div class="row mb-4">
-			<div class="col-md-12 d-flex justify-content-center">
-				<div class="b_about__title">
-					<?php the_title(); ?>
-				</div>
-			</div>
-		</div>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div class="row">
 			<div class="col-md-12">

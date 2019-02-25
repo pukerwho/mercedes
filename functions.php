@@ -32,7 +32,8 @@ require_once get_template_directory() . '/inc/TGM/example.php';
 
 
 register_nav_menus( array(
-    'head_menu' => 'Меню в шапке',
+  'head_left_menu' => 'Левое меню в шапке',
+  'head_right_menu' => 'Правое меню в шапке',
 ) );
 
 // Register sidebars
@@ -64,6 +65,7 @@ function theme_name_scripts() {
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', '','',true);
     wp_enqueue_script( 'swiper', get_template_directory_uri() . '/js/swiper.min.js','','',true);
     wp_enqueue_script( 'aos', get_template_directory_uri() . '/js/aos.min.js','','',true);
+    wp_enqueue_script( 'parallax', get_template_directory_uri() . '/js/parallax.min.js','','',true);
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', '','',true);
     wp_register_script( 'loadmore', get_stylesheet_directory_uri() . '/js/loadmore.js', array('jquery'), true );
    wp_localize_script( 'loadmore', 'loadmore_params', array(

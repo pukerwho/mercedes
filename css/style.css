@@ -9231,6 +9231,8 @@ input {
   padding-right: 3rem; }
   .p_about__content__img img {
     width: 100%; }
+.p_about__content__text p {
+  text-indent: 3rem; }
 
 .b_contact {
   color: #484848;

@@ -35,10 +35,10 @@
               </div>
               <div class="header__menu">
                 <?php wp_nav_menu([
-                  'theme-location' => 'head_left_menu',
+                  'theme_location' => 'head_left_menu',
                   'container' => 'nav',
-                  'container_class' => 'head_menu',
-                  'menu_id' => 'ul_head_menu'
+                  'container_class' => 'head_left_menu',
+                  'menu_id' => 'ul_head_left_menu'
                 ]); ?>
               </div>
             </div>
@@ -50,10 +50,10 @@
             <div class="header__right d-flex align-items-center">
               <div class="header__menu">
                 <?php wp_nav_menu([
-                  'theme-location' => 'head_right_menu',
+                  'theme_location' => 'head_right_menu',
                   'container' => 'nav',
-                  'container_class' => 'head_menu',
-                  'menu_id' => 'ul_head_menu'
+                  'container_class' => 'head_right_menu',
+                  'menu_id' => 'ul_head_right_menu'
                 ]); ?>
               </div>
               <div class="header__social">

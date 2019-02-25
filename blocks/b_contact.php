@@ -5,6 +5,9 @@
 				<div class="b_contact__title">
 					Подобрать курс лечения 
 				</div>
+				<div class="lead mb-3">
+					Введите Ваш телефон, перезвоним в течении 25 минут *
+				</div>
 				<div class="b_contact__form mb-3">
 					<?php echo do_shortcode('[contact-form-7 id="5" title="Обратный звонок"]'); ?>
 				</div>

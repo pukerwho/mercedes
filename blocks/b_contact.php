@@ -1,4 +1,4 @@
-<div class="b_contact py-5">
+<div class="b_contact py-3">
 	<div class="container">
 		<div class="row justify-content-center text-center">
 			<div class="col-md-6">

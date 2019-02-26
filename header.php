@@ -30,7 +30,8 @@
             <div class="header__left d-flex align-items-center">
               <div class="header__logo">
                 <a href="<?php echo home_url(); ?>">
-                  <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo1.png" alt="">  
+                  MedExpress
+                  <!-- <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo1.png" alt="">  --> 
                 </a>
               </div>
               <div class="header__menu">
@@ -43,9 +44,7 @@
               </div>
             </div>
             <div class="header__logo header__center">
-              <a href="<?php echo home_url(); ?>">
-                <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo2.png" alt="">  
-              </a>
+              <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo2.png" alt="">
             </div>
             <div class="header__right d-flex align-items-center">
               <div class="header__menu">
@@ -62,7 +61,7 @@
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
               </div>
               <div class="header__contact">
-                <a href="tel:12345678">12345678</a>
+                <a href="tel:8-800-800-80-80">8-800-800-80-80</a>
               </div>
             </div>
             

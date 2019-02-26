@@ -8972,10 +8972,13 @@ input {
 
 [type="submit"] {
   color: #ebebeb;
+  font-size: inherit;
   background-color: #4a76a8;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  cursor: pointer;
   margin-right: 0;
-  text-transform: uppercase;
-  cursor: pointer; }
+  padding: 0.7rem 2.5rem; }
 
 .wrapper {
   opacity: 0;
@@ -9074,6 +9077,10 @@ input {
       transition: all 0.4s; }
   .header__logo {
     margin-right: 2rem; }
+    .header__logo a {
+      font-size: 1.6rem;
+      position: relative;
+      top: -1px; }
   .header__left {
     width: 100%;
     -webkit-box-pack: end;

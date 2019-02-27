@@ -34,3 +34,19 @@ var mySwiper = new Swiper ('.swiper-main', {
     prevEl: '.swiper-slide-button-prev',
   },
 });
+
+//Подпись
+
+//Анимация подписи
+var vara = new Vara("#sign","../fonts/Satisfy/SatisfySL.json",[{
+  text:"Vara",
+  textAlign:"center",
+  strokeWidth:2.5,
+  y:80,
+  duration:1500
+}],{
+  fontSize:46
+});
+vara.ready(function(){
+  vara.draw("sphinx");
+})

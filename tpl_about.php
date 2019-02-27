@@ -32,6 +32,7 @@ Template Name: О нас
 					<p></p>
 					Генеральный директор компании МедЭкспресс.
 				</div>
+				<div id="sign"></div>
 			</div>
 		</div>
 		<?php endwhile; else: ?>

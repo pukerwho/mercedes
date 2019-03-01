@@ -23,7 +23,7 @@ Template Name: Отзывы
 				<div class="swiper-container swiper-review-video">
 			    <div class="swiper-wrapper">
 			    	<?php 
-					  $custom_query_news = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 3, 'orderby' => 'menu_order' ) );
+					  $custom_query_news = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 5, 'orderby' => 'menu_order' ) );
 					  if ($custom_query_news->have_posts()) : while ($custom_query_news->have_posts()) : $custom_query_news->the_post(); ?>
 					  	<?php if(carbon_get_the_post_meta('crb_review_video')): ?>
 					  	<div class="swiper-slide">
@@ -60,11 +60,11 @@ Template Name: Отзывы
 				<div class="swiper-container swiper-review-photo">
 			    <div class="swiper-wrapper">
 			    	<?php 
-					  $custom_query_news = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 3, 'orderby' => 'menu_order' ) );
+					  $custom_query_news = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 5, 'orderby' => 'menu_order' ) );
 					  if ($custom_query_news->have_posts()) : while ($custom_query_news->have_posts()) : $custom_query_news->the_post(); ?>
 					  	<?php if(carbon_get_the_post_meta('crb_review_photo')): ?>
 					  	<div class="swiper-slide">
-								<a href="<?php echo carbon_get_the_post_meta('crb_review_photo') ?>" data-lightbox="review" data-title="Отзывы">
+					  		<a href="<?php echo carbon_get_the_post_meta('crb_review_photo') ?>" data-lightbox="review" data-title="Отзывы">
 									<img src="<?php echo carbon_get_the_post_meta('crb_review_photo') ?>" alt="">
 								</a>
 	          	</div>

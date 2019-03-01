@@ -65,7 +65,7 @@ var mySwiper = new Swiper ('.swiper-main', {
 
 //SWIPER VIDEO
 if ($(document).width() > 960) {
-  var mySwiperVideo = new Swiper ('.swiper-review-video', {
+  var mySwiperReviewVideo = new Swiper ('.swiper-review-video', {
     slidesPerView: 2,
     spaceBetween: 30,
     simulateTouch: false,
@@ -79,7 +79,7 @@ if ($(document).width() > 960) {
 
 //SWIPER VIDEO
 if ($(document).width() > 960) {
-  var mySwiperVideo = new Swiper ('.swiper-review-photo', {
+  var mySwiperReviewPhoto = new Swiper ('.swiper-review-photo', {
     slidesPerView: 4,
     spaceBetween: 30,
     simulateTouch: false,

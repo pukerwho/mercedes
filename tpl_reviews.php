@@ -10,7 +10,18 @@ Template Name: Отзывы
 	<!-- Слайдер -->
 	<?php get_template_part('blocks/b_main-slider'); ?>
 	<!-- Комменты -->
-
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Комментарии</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<?php comments_template(); ?> 
+			</div>
+		</div>
+	</div>
 	<!-- Видео отзывы -->
 	<div class="container py-3">
 		<div class="row mb-4">

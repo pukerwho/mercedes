@@ -9949,6 +9949,11 @@ button.swiper-pagination-bullet {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px; }
 
+.p_reviews h2 {
+  font-family: 'Baltica';
+  color: #484848;
+  font-size: 3rem;
+  font-weight: 900; }
 .p_reviews .swiper-review-photo .swiper-slide img {
   width: 100%;
   height: 150px;

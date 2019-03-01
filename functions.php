@@ -27,6 +27,7 @@ if( !isset( $content_width ) ) {
 require_once get_template_directory() . '/inc/carbon-fields/carbon-fields-plugin.php';
 require_once get_template_directory() . '/inc/custom-fields/settings-meta.php';
 require_once get_template_directory() . '/inc/custom-fields/news-meta.php';
+require_once get_template_directory() . '/inc/custom-fields/reviews-meta.php';
 require_once get_template_directory() . '/inc/custom-fields/pages-meta.php';
 require_once get_template_directory() . '/inc/TGM/example.php';
 
@@ -66,6 +67,7 @@ function theme_name_scripts() {
     wp_enqueue_script( 'swiper', get_template_directory_uri() . '/js/swiper.min.js','','',true);
     wp_enqueue_script( 'aos', get_template_directory_uri() . '/js/aos.min.js','','',true);
     wp_enqueue_script( 'parallax', get_template_directory_uri() . '/js/parallax.min.js','','',true);
+    wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js','','',true);
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', '','',true);
     wp_register_script( 'loadmore', get_stylesheet_directory_uri() . '/js/loadmore.js', array('jquery'), true );
    wp_localize_script( 'loadmore', 'loadmore_params', array(
@@ -111,6 +113,18 @@ function create_post_type() {
       'labels' => array(
         'name' => __( 'Новости' ),
         'singular_name' => __( 'Новость' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'hierarchical' => true,
+      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+    )
+  );
+  register_post_type( 'reviews',
+    array(
+      'labels' => array(
+        'name' => __( 'Отзывы' ),
+        'singular_name' => __( 'Отзыв' )
       ),
       'public' => true,
       'has_archive' => true,

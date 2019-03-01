@@ -7,6 +7,7 @@ Template Name: О нас
 <?php get_header(); ?>
 
 <div class="p_about">
+	<?php get_template_part('blocks/b_main-slider'); ?>
 	<div class="container py-5">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div class="row">

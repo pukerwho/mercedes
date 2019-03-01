@@ -8952,8 +8952,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Helvetica-Thin';
   src: url("../fonts/Helvetica-Thin.ttf"); }
 body {
-  /*font-family: 'Helvetica-Thin';*/
-  font-family: 'Tahoma'; }
+  font-family: 'Verdana'; }
 
 ul {
   margin: 0;
@@ -9243,6 +9242,9 @@ input {
     color: #484848;
     font-size: 1.2rem;
     font-weight: 200; }
+    .b_about__text p {
+      text-indent: 3rem;
+      text-align: justify; }
   .b_about .my-line {
     margin: auto; }
 
@@ -9253,7 +9255,12 @@ input {
   .p_about__content__img img {
     width: 100%; }
 .p_about__content__text p {
-  text-indent: 3rem; }
+  text-indent: 3rem;
+  text-align: justify; }
+.p_about__sign__animate {
+  display: none; }
+  .p_about__sign__animate img {
+    width: 200px; }
 
 .b_contact {
   color: #484848;

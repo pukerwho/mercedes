@@ -36,17 +36,14 @@ var mySwiper = new Swiper ('.swiper-main', {
 });
 
 //Подпись
-
-//Анимация подписи
-var vara = new Vara("#sign","../fonts/Satisfy/SatisfySL.json",[{
-  text:"Vara",
-  textAlign:"center",
-  strokeWidth:2.5,
-  y:80,
-  duration:1500
-}],{
-  fontSize:46
-});
-vara.ready(function(){
-  vara.draw("sphinx");
-})
+if($('.p_about__sign'). length){
+  $(window).scroll(function(event){
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    signTop = $('.p_about__sign').offset().top - $(window).height() + 5;
+    console.log(scrollTop);
+    console.log(signTop);
+    if (scrollTop > signTop) {
+      $('.p_about__sign__animate').css({'display':'block'});
+    }
+  });
+}

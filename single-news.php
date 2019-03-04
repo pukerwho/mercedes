@@ -15,7 +15,7 @@
 					<div class="p_news__title px-3 mb-3">
 						<?php the_title(); ?>
 					</div>
-					<div class="p_news__content lead px-3 pb-3">
+					<div class="p_news__content px-3 pb-3">
 						<?php the_content(); ?>
 					</div>
 					<div class="p_news__other">

@@ -3,7 +3,7 @@
   <?php
   if( have_posts() ): the_post();
     // Load default block template page
-    get_template_part('blocks/page', 'default');
+    get_template_part('blocks/pages/p_page', 'default');
   endif;
   ?>
 	<?php wp_link_pages(); ?>

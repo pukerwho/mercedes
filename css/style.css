@@ -9994,6 +9994,18 @@ button.swiper-pagination-bullet {
 .p_reviews .swiper-button-next:focus, .p_reviews .swiper-button-prev:focus {
   outline: none; }
 
+.p_page {
+  background-color: #ebebeb; }
+  .p_page__block {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); }
+  .p_page__title {
+    color: #484848;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.5rem; }
+
 .b_mainslider {
   margin-bottom: 3rem; }
   .b_mainslider .swiper-main {

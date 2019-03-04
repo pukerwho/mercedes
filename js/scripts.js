@@ -77,7 +77,7 @@ if ($(document).width() > 960) {
   });
 };
 
-//SWIPER VIDEO
+//SWIPER PHOTO
 if ($(document).width() > 960) {
   var mySwiperReviewPhoto = new Swiper ('.swiper-review-photo', {
     slidesPerView: 5,

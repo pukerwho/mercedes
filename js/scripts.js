@@ -69,7 +69,6 @@ if ($(document).width() > 960) {
     slidesPerView: 2,
     spaceBetween: 30,
     simulateTouch: false,
-    loop: true,
     navigation: {
       nextEl: '.swiper-review-video-button-next',
       prevEl: '.swiper-review-video-button-prev',
@@ -83,7 +82,6 @@ if ($(document).width() > 960) {
     slidesPerView: 5,
     spaceBetween: 30,
     simulateTouch: false,
-    loop: true,
     navigation: {
       nextEl: '.swiper-review-photo-button-next',
       prevEl: '.swiper-review-photo-button-prev',

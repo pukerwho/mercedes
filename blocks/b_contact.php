@@ -5,7 +5,7 @@
 				<div class="b_contact__title">
 					Подобрать курс лечения 
 				</div>
-				<div class="lead mb-3">
+				<div class="b_contact__heading mb-3">
 					Введите Ваш телефон, перезвоним в течении 25 минут *
 				</div>
 				<div class="b_contact__form mb-3">

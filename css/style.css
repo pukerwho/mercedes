@@ -9238,7 +9238,6 @@ input {
     margin-bottom: 1rem; }
   .news__item__text {
     font-size: 1rem;
-    line-height: 1.8rem;
     margin-bottom: 1.5rem; }
 
 .p_news {
@@ -9320,6 +9319,8 @@ input {
     font-family: 'Baltica';
     font-size: 2rem;
     margin-bottom: 1.5rem; }
+  .b_contact__heading {
+    font-size: 1rem; }
   .b_contact form {
     display: -webkit-box;
     display: -webkit-flex;

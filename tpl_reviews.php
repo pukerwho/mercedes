@@ -29,8 +29,8 @@ Template Name: Отзывы
 				<div class="swiper-container swiper-review-video">
 			    <div class="swiper-wrapper">
 			    	<?php 
-					  $custom_query_news = new WP_Query( array( 'post_type' => 'reviews', 'orderby' => 'menu_order' ) );
-					  if ($custom_query_news->have_posts()) : while ($custom_query_news->have_posts()) : $custom_query_news->the_post(); ?>
+					  $custom_query_video_review = new WP_Query( array( 'post_type' => 'reviews') );
+					  if ($custom_query_video_review->have_posts()) : while ($custom_query_video_review->have_posts()) : $custom_query_video_review->the_post(); ?>
 					  	<?php if(carbon_get_the_post_meta('crb_review_video')): ?>
 					  	<div class="swiper-slide">
 	          		<div class="youtube-player" data-id="<?php echo carbon_get_the_post_meta('crb_review_video') ?>"></div>
@@ -61,8 +61,8 @@ Template Name: Отзывы
 				<div class="swiper-container swiper-review-photo">
 			    <div class="swiper-wrapper">
 			    	<?php 
-					  $custom_query_news = new WP_Query( array( 'post_type' => 'reviews', 'orderby' => 'menu_order' ) );
-					  if ($custom_query_news->have_posts()) : while ($custom_query_news->have_posts()) : $custom_query_news->the_post(); ?>
+					  $custom_query_photo_reviews = new WP_Query( array( 'post_type' => 'reviews' ) );
+					  if ($custom_query_photo_reviews->have_posts()) : while ($custom_query_photo_reviews->have_posts()) : $custom_query_photo_reviews->the_post(); ?>
 					  	<?php if(carbon_get_the_post_meta('crb_review_photo')): ?>
 					  	<div class="swiper-slide">
 					  		<a href="<?php echo carbon_get_the_post_meta('crb_review_photo') ?>" data-lightbox="review" data-title="Отзывы">

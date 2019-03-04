@@ -12,7 +12,7 @@ Template Name: О нас
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div class="row">
 			<div class="col-md-12">
-				<div class="p_about__content__text lead mb-3">
+				<div class="p_about__content__text mb-3">
 					
 					<!-- <div class="p_about__content__img">
 						<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">	

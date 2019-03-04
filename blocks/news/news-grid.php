@@ -1,5 +1,5 @@
 <div class="news">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row news__row mb-5">
 			<?php 
 			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

@@ -24,11 +24,6 @@ Template Name: Отзывы
 	</div>
 	<!-- Видео отзывы -->
 	<div class="container py-3">
-		<div class="row mb-4">
-			<div class="col-md-12 text-center">
-				<h2>Видео отзывы</h2>
-			</div>
-		</div>
 		<div class="row mb-5">
 			<div class="col-md-12">
 				<div class="swiper-container swiper-review-video">
@@ -61,11 +56,6 @@ Template Name: Отзывы
 
 	<!-- Фото отзывы --> 
 	<div class="container">
-		<div class="row mb-4">
-			<div class="col-md-12 text-center">
-				<h2>Отзывы</h2>
-			</div>
-		</div>
 		<div class="row mb-5">
 			<div class="col-md-12">
 				<div class="swiper-container swiper-review-photo">

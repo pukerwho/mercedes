@@ -5,13 +5,6 @@
 				<div class="my-line"></div>
 			</div>
 		</div>
-		<div class="row mb-4">
-			<div class="col-md-12">
-				<div class="b_about__title">
-					Коротко о нас
-				</div>
-			</div>
-		</div>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="b_about__text">

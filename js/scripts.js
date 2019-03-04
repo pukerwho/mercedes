@@ -80,7 +80,7 @@ if ($(document).width() > 960) {
 //SWIPER VIDEO
 if ($(document).width() > 960) {
   var mySwiperReviewPhoto = new Swiper ('.swiper-review-photo', {
-    slidesPerView: 4,
+    slidesPerView: 5,
     spaceBetween: 30,
     simulateTouch: false,
     loop: true,

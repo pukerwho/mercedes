@@ -20,7 +20,8 @@ console.log('click');
         if( data ) { 
           button.text( 'Загрузить еще' ).prev().before(data); // insert new posts          
           loadmore_params.current_page++;
-          $('.news .container-fluid .news__row .col-md-12:last-of-type').after(data);
+          console.log(data);
+          $('.news .container .news__row .col-md-12:last-of-type').after(data);
 
           if ( loadmore_params.current_page == loadmore_params.max_page ) 
             button.remove(); // if last page, remove the button

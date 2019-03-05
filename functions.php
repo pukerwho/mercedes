@@ -70,7 +70,7 @@ function theme_name_scripts() {
     wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js','','',true);
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', '','',true);
     wp_register_script( 'loadmore', get_stylesheet_directory_uri() . '/js/loadmore.js', array('jquery'), true );
-   wp_localize_script( 'loadmore', 'loadmore_params', array(
+    wp_localize_script( 'loadmore', 'loadmore_params', array(
         'ajaxurl' => site_url() . '/wp-admin/admin-ajax.php', // WordPress AJAX
         'posts' => json_encode( $custom_query_news->query_vars ), // everything about your loop is here
         'current_page' => get_query_var( 'paged' ) ? get_query_var('paged') : 1,

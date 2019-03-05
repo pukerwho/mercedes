@@ -1,7 +1,7 @@
 <div class="news__item">
 	<div class="news__block">
 		<div class="news__item__photo">
-			<div class="parallax-window" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="<?php echo get_the_post_thumbnail_url(); ?>"></div>
+			<div class="parallax-window" data-parallax="scroll"  data-position="top" data-bleed="10" data-image-src="<?php echo get_the_post_thumbnail_url(); ?>"></div>
 		</div>
 		<div class="news__item__content">
 			<div class="news__item__title">

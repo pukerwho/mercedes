@@ -1,7 +1,6 @@
 jQuery(function($){
   $(document).on('click', '.loadmore', function(event){
-
-console.log('click');
+event.preventDefault();
     var button = $(this),
         data = {
       'action': 'loadmore',

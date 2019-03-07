@@ -1,6 +1,6 @@
 jQuery(function($){
   $(document).on('click', '.loadmore', function(event){
-event.preventDefault();
+
     var button = $(this),
         data = {
       'action': 'loadmore',
@@ -21,7 +21,8 @@ event.preventDefault();
           loadmore_params.current_page++;
           console.log(data);
           $('.news .container .news__row .col-md-12:last-of-type').after(data);
-
+          $('.parallax-window').parallax();
+          $('.news').trigger('resize');
           if ( loadmore_params.current_page == loadmore_params.max_page ) 
             button.remove(); // if last page, remove the button
  

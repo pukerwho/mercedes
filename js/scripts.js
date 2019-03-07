@@ -76,6 +76,13 @@ if ($(document).width() > 960) {
   });
 };
 
+var LoadParallax = function(p){
+  $('.parallax-window').parallax();
+}
+
+LoadParallax();
+
+
 //Подпись
 if($('.p_about__sign'). length){
   $(window).scroll(function(event){

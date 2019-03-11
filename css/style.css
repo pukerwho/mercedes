@@ -10048,6 +10048,9 @@ button.swiper-pagination-bullet {
   text-indent: 3rem;
   text-align: justify; }
 
+#track24Result {
+  width: 100% !important; }
+
 [data-aos][data-aos][data-aos-duration="50"], body[data-aos-duration="50"] [data-aos] {
   -webkit-transition-duration: 50ms;
   -o-transition-duration: 50ms;

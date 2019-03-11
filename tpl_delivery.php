@@ -20,9 +20,6 @@ Template Name: Доставка
 			<div class="col-md-12 text-center">
 				<div id="track24widget"></div>
 			</div>
-			<div class="col-md-12 text-center">
-				Информация об отслеживании предоставлена сервисом <a href="https://track24.ru/">track24.ru</a>
-			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">

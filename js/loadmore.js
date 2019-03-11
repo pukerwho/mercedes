@@ -5,7 +5,7 @@ jQuery(function($){
         data = {
       'action': 'loadmore',
       'query': loadmore_params.posts, // that's how we get params from wp_localize_script() function
-      'page' : loadmore_params.current_page
+      'page' : loadmore_params.current_page,
     };
  
     $.ajax({
@@ -19,7 +19,8 @@ jQuery(function($){
         if( data ) { 
           button.text( 'Загрузить еще' ).prev().before(data); // insert new posts          
           loadmore_params.current_page++;
-          console.log(data);
+          console.log(loadmore_params.current_page);
+          console.log(loadmore_params);
           $('.news .container .news__row .col-md-12:last-of-type').after(data);
           $('.parallax-window').parallax();
           $('.news').trigger('resize');

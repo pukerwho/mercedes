@@ -70,11 +70,12 @@ function theme_name_scripts() {
     wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js','','',true);
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', '','',true);
     wp_register_script( 'loadmore', get_stylesheet_directory_uri() . '/js/loadmore.js', array('jquery'), true );
+
     wp_localize_script( 'loadmore', 'loadmore_params', array(
         'ajaxurl' => site_url() . '/wp-admin/admin-ajax.php', // WordPress AJAX
         'posts' => json_encode( $custom_query_news->query_vars ), // everything about your loop is here
         'current_page' => get_query_var( 'paged' ) ? get_query_var('paged') : 1,
-        'max_page' => $custom_query_news->max_num_pages
+        'total' => $custom_query_news->max_num_pages
     ), true );
  
     wp_enqueue_script( 'loadmore');
@@ -90,7 +91,7 @@ add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
 function loadmore_ajax_handler(){
   // prepare our arguments for the query
   $args = json_decode( stripslashes( $_POST['query'] ), true );
-  $args['paged'] = $_POST['page'] + 1; 
+  $args['paged'] = $_POST['page'] + 2; 
   $args['post_status'] = 'publish';
   $args['post_type'] = 'news';
   query_posts( $args );

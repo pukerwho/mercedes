@@ -57,7 +57,7 @@
               </div>
               <div class="header__social">
                 <li><a href="#"><i class="fab fa-vk"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCG911p49DUgelySVUJQzY8w" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
               </div>
               <div class="header__contact">

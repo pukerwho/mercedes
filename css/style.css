@@ -10047,6 +10047,11 @@ button.swiper-pagination-bullet {
 .p_delivery__text p {
   text-indent: 3rem;
   text-align: justify; }
+.p_delivery h1 {
+  font-family: 'Baltica';
+  color: #484848;
+  font-size: 3rem;
+  font-weight: 900; }
 
 #track24Result {
   width: 100% !important; }

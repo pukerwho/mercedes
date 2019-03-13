@@ -10056,6 +10056,13 @@ button.swiper-pagination-bullet {
 #track24Result {
   width: 100% !important; }
 
+.p_contact__title {
+  font-family: 'Baltica';
+  font-size: 2rem;
+  line-height: 2.3rem; }
+.p_contact__img img {
+  width: 100%; }
+
 [data-aos][data-aos][data-aos-duration="50"], body[data-aos-duration="50"] [data-aos] {
   -webkit-transition-duration: 50ms;
   -o-transition-duration: 50ms;

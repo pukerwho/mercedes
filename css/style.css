@@ -9093,6 +9093,11 @@ input {
   background: url("//i.imgur.com/TxzC70f.png") no-repeat;
   cursor: pointer; }
 
+.parallax-window {
+  background: transparent;
+  width: 450px;
+  min-height: 430px; }
+
 .header {
   font-family: 'Baltica';
   width: 100%;
@@ -9210,10 +9215,6 @@ input {
     float: left;
     padding-right: 1rem;
     overflow: hidden; }
-    .news__item__photo .parallax-window {
-      background: transparent;
-      width: 450px;
-      min-height: 430px; }
     .news__item__photo img {
       width: 100%;
       height: 100%;
@@ -10060,7 +10061,12 @@ button.swiper-pagination-bullet {
   font-family: 'Baltica';
   font-size: 2rem;
   line-height: 2.3rem; }
-.p_contact__img img {
+.p_contact__img {
+  width: 100%;
+  height: 450px; }
+  .p_contact__img img {
+    width: 100%; }
+.p_contact .parallax-window {
   width: 100%; }
 
 [data-aos][data-aos][data-aos-duration="50"], body[data-aos-duration="50"] [data-aos] {

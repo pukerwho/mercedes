@@ -25,7 +25,8 @@ Template Name: Контакты
 					+7(495) 000 00 00 многоканальный
 				</div>
 				<div class="p_contact__img mb-5">
-					<img src="<?php bloginfo('template_url') ?>/img/medexpress-contact.jpg" alt="">
+					<div class="parallax-window" data-parallax data-parallax="scroll"  data-position="top" data-bleed="0" data-src="<?php bloginfo('template_url') ?>/img/medexpress-contact.jpg"></div>
+					<!-- <div class="parallax-window" data-parallax data-parallax="scroll"  data-position="top" data-bleed="0" data-src="<?php bloginfo('template_url') ?>/img/medexpress-contact.jpg" alt=""></div> -->
 				</div>
 				<div class="mb-3">
 					Как проехать:

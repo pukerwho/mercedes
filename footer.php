@@ -4,14 +4,9 @@
     		<div class="row mb-4">
                 <div class="col-md-3">
                     <div class="footer__item">
-                        <div class="footer__logo mb-4">
+                        <div class="footer__logo">
                             <img src="<?php bloginfo('template_url') ?>/img/logo-medexpress.png" width="100%" alt="">
                         </div>
-                        <a href="tel:8000000">
-                            <div class="footer__item-title">
-                                8-800-800-80-80
-                            </div>
-                        </a>
                     </div>
                 </div>
     			<div class="col-md-3 offset-md-1">
@@ -22,8 +17,13 @@
     						</div>
     					</a>
                         <a href="#" data-toggle="modal" data-target="#forDoctorModal">
-                            <div class="footer__item-title">
+                            <div class="footer__item-title mb-4">
                                 Информация для врачей
+                            </div>
+                        </a>
+                        <a href="tel:8000000">
+                            <div class="footer__item-title">
+                                8-800-800-80-80
                             </div>
                         </a>
     				</div>
@@ -54,7 +54,7 @@
 		  <div class="modal-dialog modal-lg" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalLabel">Информация для врачей</h5>
+		        <h5 class="modal-title text-center" id="exampleModalLabel">Информация для врачей</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
 		        </button>

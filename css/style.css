@@ -9098,6 +9098,9 @@ input {
   width: 450px;
   min-height: 430px; }
 
+.modal-title {
+  width: 100%; }
+
 .header {
   font-family: 'Baltica';
   width: 100%;

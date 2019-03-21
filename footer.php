@@ -35,7 +35,7 @@
     						Подписаться на новости и акции
     					</div>
     					<div class="footer__item-form">
-    						<?php echo do_shortcode('[contact-form-7 id="59" title="Рассылка"]') ?>
+    						<?php echo do_shortcode('[contact-form-7 id="267" title="Рассылка"]') ?>
     					</div>
     				</div>
     			</div>

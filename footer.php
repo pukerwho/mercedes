@@ -2,34 +2,33 @@
     <footer id="footer" class="footer">
     	<div class="container">
     		<div class="row mb-4">
-    			<div class="col-md-3">
+                <div class="col-md-3">
+                    <div class="footer__item">
+                        <div class="footer__logo mb-4">
+                            <img src="<?php bloginfo('template_url') ?>/img/logo-medexpress.png" width="100%" alt="">
+                        </div>
+                        <a href="tel:8000000">
+                            <div class="footer__item-title">
+                                8-800-800-80-80
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    			<div class="col-md-3 offset-md-1">
     				<div class="footer__item">
     					<a href="/contact">
     						<div class="footer__item-title">
     							Контакты
     						</div>
     					</a>
+                        <a href="#" data-toggle="modal" data-target="#forDoctorModal">
+                            <div class="footer__item-title">
+                                Информация для врачей
+                            </div>
+                        </a>
     				</div>
     			</div>
-    			<div class="col-md-3">
-    				<div class="footer__item">
-    					<a href="tel:8000000">
-    						<div class="footer__item-title">
-    							8-800-800-80-80
-    						</div>
-    					</a>
-    				</div>
-    			</div>
-    			<div class="col-md-3">
-    				<div class="footer__item">
-    					<a href="#" data-toggle="modal" data-target="#forDoctorModal">
-	    					<div class="footer__item-title">
-	    						Информация для врачей
-	    					</div>
-    					</a>
-    				</div>
-    			</div>
-    			<div class="col-md-3">
+    			<div class="col-md-5">
     				<div class="footer__item">
     					<div class="footer__item-title mb-3">
     						Подписаться на новости и акции
@@ -61,7 +60,17 @@
 		        </button>
 		      </div>
 		      <div class="modal-body">
-		        Текст
+                <div class="fordoctor">
+                    <p>В настоящее время компания Медэкспресс сотрудничает с врачами по поиску препаратов для лечения граждан на территории России. Многочисленные положительные отзывы лечения стали возможными благодаря этому взаимодействию.</p>
+                    <p>Мы надеемся, что в будущем о нашем сервисе по поиску препаратов узнают миллионы людей и каждый врач внесет личный вклад в современное здравоохранение вместе с нами.</p>
+                    <p>Для получения новостей и актуальной информации подпишитесь на рассылку.
+                    <div class="text-center">
+                        <span>За более подробной информацией о сотрудничестве обращайтесь по номеру:</span>
+                        <br><br>
+                        <span class="font-weight-bold lead">8-800-800-80-80</span>
+                    </div>
+                    
+                </div>
 		      </div>
 		    </div>
 		  </div>

@@ -9216,6 +9216,9 @@ input {
     .footer__copyright a {
       color: #4f78a6; }
 
+.fordoctor p {
+  text-indent: 3rem; }
+
 .news__block {
   width: 100%;
   height: 450px;

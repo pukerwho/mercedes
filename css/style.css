@@ -9218,6 +9218,12 @@ input {
     opacity: 0.8; }
     .footer__copyright a {
       color: #4f78a6; }
+  .footer__logo-title {
+    font-family: 'Baltica';
+    font-size: 1.6rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    margin-left: 1px; }
 
 .fordoctor p {
   text-indent: 3rem; }

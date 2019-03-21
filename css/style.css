@@ -9118,7 +9118,7 @@ input {
   -ms-flex-align: center;
   align-items: center;
   background-color: rgba(45, 45, 45, 0.98);
-  z-index: 3; }
+  z-index: 99; }
   .header a {
     color: #ffffff;
     font-size: 1.2rem;

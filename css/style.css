@@ -9176,6 +9176,46 @@ input {
     .header__social li:last-child {
       margin-right: 2rem; }
 
+.footer {
+  background-color: rgba(45, 45, 45, 0.98);
+  padding: 3rem 0 0 0; }
+  .footer__item {
+    color: #ffffff; }
+    .footer__item-title {
+      font-family: 'Baltica';
+      font-size: 1.4rem;
+      font-weight: 200;
+      letter-spacing: 0.1rem; }
+    .footer__item a {
+      color: #ffffff;
+      text-decoration: underline; }
+    .footer__item form {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .footer__item input {
+      width: 95%;
+      font-size: 1rem; }
+    .footer__item [type="submit"] {
+      width: 100%;
+      border: 2px solid #4a76a8;
+      padding: 0.7rem 1rem; }
+  .footer__copyright {
+    color: #ffffff;
+    border-top: 1px solid #777777;
+    padding: 2rem 0;
+    opacity: 0.8; }
+    .footer__copyright a {
+      color: #4f78a6; }
+
 .news__block {
   width: 100%;
   height: 450px;

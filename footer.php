@@ -30,7 +30,7 @@
     			</div>
     			<div class="col-md-5">
     				<div class="footer__item">
-    					<div class="footer__item-title mb-3">
+    					<div class="footer__item-title text-center mb-3">
     						Подписаться на новости и акции
     					</div>
     					<div class="footer__item-form">

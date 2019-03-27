@@ -58,7 +58,9 @@
               </div>
             </div>
             <div class="header__logo header__center">
-              <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo2.png" alt="">
+              <a href="<?php echo home_url(); ?>">
+                <img src="<?php bloginfo('template_url') ?>/img/medexpress-logo2.png" alt="">
+              </a>
             </div>
             <div class="header__right d-flex align-items-center">
               <div class="header__menu">

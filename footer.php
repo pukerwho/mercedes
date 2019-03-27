@@ -24,7 +24,7 @@
                                 Информация для врачей
                             </div>
                         </a>
-                        <a href="tel:8000000">
+                        <a href="tel:8-800-800-80-80" class="footer__phone">
                             <div class="footer__item-title">
                                 8-800-800-80-80
                             </div>

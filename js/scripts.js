@@ -1,3 +1,9 @@
+$('.mobile-menu').on('click', function(e) {
+  e.preventDefault;
+  $(this).toggleClass('mobile-menu__active');
+  $('.mobile-cover').toggleClass('mobile-cover__open');
+});
+
 //Тест ютуба
 (function() {
   var div, n,
@@ -41,6 +47,10 @@ var mySwiper = new Swiper ('.swiper-main', {
   slidesPerView: 'auto',
   spaceBetween: 30,
   loop: true,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
   autoplay: {
       delay: 6000,
   },

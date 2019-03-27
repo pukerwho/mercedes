@@ -35,6 +35,7 @@ require_once get_template_directory() . '/inc/TGM/example.php';
 register_nav_menus( array(
   'head_left_menu' => 'Левое меню в шапке',
   'head_right_menu' => 'Правое меню в шапке',
+  'mobile_menu' => 'Мобильное меню',
 ) );
 
 // Register sidebars

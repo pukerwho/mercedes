@@ -26,7 +26,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <div class="d-flex align-items-center justify-content-between">
+          <div class="header__cover">
             <div class="header__left d-flex align-items-center">
               <div class="header__logo">
                 <a href="<?php echo home_url(); ?>">
@@ -40,6 +40,20 @@
                   'container' => 'nav',
                   'container_class' => 'head_left_menu',
                   'menu_id' => 'ul_head_left_menu'
+                ]); ?>
+              </div>
+            </div>
+            <div class="mobile-show">
+              <div class="mobile-menu">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="mobile-cover">
+                <?php wp_nav_menu([
+                  'theme_location' => 'mobile_menu',
+                  'container' => 'div',
+                  'container_class' => 'mobile_menu',
+                  'menu_class' => 'mobile__link'
                 ]); ?>
               </div>
             </div>

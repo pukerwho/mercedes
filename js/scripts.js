@@ -73,12 +73,35 @@ if ($(document).width() > 960) {
   });
 };
 
+if ($(document).width() < 960) {
+  var mySwiperMobileReviewVideo = new Swiper ('.swiper-review-video', {
+    slidesPerView: 1,
+    simulateTouch: true,
+    navigation: {
+      nextEl: '.swiper-review-video-button-next',
+      prevEl: '.swiper-review-video-button-prev',
+    },
+  });
+};
+
 //SWIPER PHOTO
 if ($(document).width() > 960) {
   var mySwiperReviewPhoto = new Swiper ('.swiper-review-photo', {
     slidesPerView: 5,
     spaceBetween: 30,
     simulateTouch: false,
+    navigation: {
+      nextEl: '.swiper-review-photo-button-next',
+      prevEl: '.swiper-review-photo-button-prev',
+    },
+  });
+};
+
+if ($(document).width() < 960) {
+  var mySwiperMobileReviewPhoto = new Swiper ('.swiper-review-photo', {
+    slidesPerView: 1,
+    simulateTouch: true,
+    autoHeight: true,
     navigation: {
       nextEl: '.swiper-review-photo-button-next',
       prevEl: '.swiper-review-photo-button-prev',

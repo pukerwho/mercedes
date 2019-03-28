@@ -11713,6 +11713,16 @@ html.lb-disable-scrolling {
     margin-right: 0 !important;
     padding: 5px !important; }
 
+  /* Reviews */
+  .p_reviews .swiper-slide {
+    padding: 0 20px; }
+  .p_reviews .swiper-button-next {
+    position: absolute;
+    right: 20px; }
+  .p_reviews .swiper-button-prev {
+    position: absolute;
+    left: 20px; }
+
   .footer__item {
     text-align: center; }
   .footer__logo-title {

@@ -9370,9 +9370,7 @@ input {
     font-size: 3rem;
     font-weight: 900; }
   .b_about__text {
-    color: #484848;
-    font-size: 1rem;
-    font-weight: 200; }
+    font-size: 1rem; }
     .b_about__text p {
       text-indent: 3rem;
       text-align: justify; }
@@ -9435,14 +9433,39 @@ input {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
     .b_contact form input {
       width: 100%; }
     .b_contact form p:first-of-type {
       margin-right: 1rem; }
+  .b_contact .invalid {
+    display: block !important; }
   .b_contact__small {
     font-size: 0.9rem;
     text-align: left; }
+  .b_contact .sent p {
+    margin-bottom: 4rem; }
+  .b_contact div.wpcf7-mail-sent-ok {
+    width: 100%;
+    height: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0; }
 
 .swiper-container {
   margin: 0 auto;

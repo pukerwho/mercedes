@@ -4,7 +4,7 @@
     		<div class="row mb-4">
                 <div class="col-md-3">
                     <div class="footer__item text-center">
-                        <div class="footer__logo mb-4">
+                        <div class="footer__logo mb-1">
                             <img src="<?php bloginfo('template_url') ?>/img/logo-medexpress.png" width="70px" alt="">
                         </div>
                         <div class="footer__logo-title">

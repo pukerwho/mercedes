@@ -101,7 +101,7 @@ if ($(document).width() < 960) {
   var mySwiperMobileReviewPhoto = new Swiper ('.swiper-review-photo', {
     slidesPerView: 1,
     simulateTouch: true,
-    autoHeight: true,
+    autoHeight: true, 
     navigation: {
       nextEl: '.swiper-review-photo-button-next',
       prevEl: '.swiper-review-photo-button-prev',

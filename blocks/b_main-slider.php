@@ -2,8 +2,16 @@
 	<div class="swiper-container swiper-main">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide swiper-slide-first">
-				<div class="swiper-out">
-					<img src="<?php bloginfo('template_url') ?>/img/slider-logistics.jpg" alt="">
+				<div class="b_mainslider-bg"></div>
+				<div class="pc-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/slider-logistics.jpg" alt="">	
+					</div>
+				</div>
+				<div class="mobile-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/slider-logistics-mobile.jpg" alt="">
+					</div>
 				</div>
 				<div class="swiper-in">
 					<div class="swiper-slider__title">
@@ -13,8 +21,15 @@
 			</div>
 			<div class="swiper-slide swiper-slide-second">
 				<div class="b_mainslider-bg"></div>
-				<div class="swiper-out">
-					<img src="<?php bloginfo('template_url') ?>/img/medexpress-contact.jpg" alt="">
+				<div class="pc-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/medexpress-contact.jpg" alt="">
+					</div>
+				</div>
+				<div class="mobile-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/medexpress-contact-mobile.jpg" alt="">
+					</div>
 				</div>
 				<div class="swiper-in">
 					<div class="swiper-slider__title">
@@ -24,8 +39,15 @@
 			</div>
 			<div class="swiper-slide swiper-slide-third">
 				<div class="b_mainslider-bg"></div>
-				<div class="swiper-out">
-					<img src="<?php bloginfo('template_url') ?>/img/slider-city.jpg" alt="">
+				<div class="pc-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/slider-city.jpg" alt="">
+					</div>
+				</div>
+				<div class="mobile-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/slider-city-mobile.jpg" alt="">
+					</div>
 				</div>
 				<div class="swiper-in">
 					<div class="swiper-slider__title">
@@ -35,8 +57,15 @@
 			</div>
 			<div class="swiper-slide swiper-slide-fourth">
 				<div class="b_mainslider-bg"></div>
-				<div class="swiper-out">
-					<img src="<?php bloginfo('template_url') ?>/img/slider-world.jpg" alt="">
+				<div class="pc-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/slider-world.jpg" alt="">
+					</div>
+				</div>
+				<div class="mobile-show">
+					<div class="swiper-out">
+						<img src="<?php bloginfo('template_url') ?>/img/slider-world-mobile.jpg" alt="">
+					</div>
 				</div>
 				<div class="swiper-in">
 					<div class="swiper-slider__title">

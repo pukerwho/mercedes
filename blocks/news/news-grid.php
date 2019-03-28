@@ -10,7 +10,7 @@
 		  	</div>
 		  <?php endwhile; endif; ?>
 		</div>
-		<div class="row text-center mb-5">
+		<div class="row news__loadmore-row mb-5">
 			<div class="col-md-12">
 				<div class="my-btn-more loadmore">
 					Еще новости

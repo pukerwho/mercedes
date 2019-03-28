@@ -11713,6 +11713,8 @@ html.lb-disable-scrolling {
   .p_about__bottom {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%; }
+  .p_about__sign {
+    margin-bottom: 1.5rem; }
 
   /* Reviews */
   .p_reviews .swiper-slide {
@@ -11724,13 +11726,19 @@ html.lb-disable-scrolling {
     position: absolute;
     left: 20px; }
 
+  .b_contact form {
+    position: relative; }
+  .b_contact .invalid {
+    display: block !important; }
+
   .footer__item {
     text-align: center; }
   .footer__logo-title {
     margin-bottom: 1.5rem; }
   .footer__phone .footer__item-title {
     margin-bottom: 1.5rem; }
-  .footer div.wpcf7 .ajax-loader {
+
+  div.wpcf7 .ajax-loader {
     position: absolute;
     bottom: -10px;
     left: 15px; } }

@@ -10216,24 +10216,24 @@ button.swiper-pagination-bullet {
 
 @-webkit-keyframes background_position {
   0% {
-    -webkit-transform: translate3d(0, -30%, 0);
-    transform: translate3d(0, -30%, 0); }
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0); }
   50% {
-    -webkit-transform: translate3d(0, -5%, 0);
-    transform: translate3d(0, -5%, 0); }
+    -webkit-transform: translate3d(0, -15%, 0);
+    transform: translate3d(0, -15%, 0); }
   100% {
-    -webkit-transform: translate3d(0, -30%, 0);
-    transform: translate3d(0, -30%, 0); } }
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0); } }
 @keyframes background_position {
   0% {
-    -webkit-transform: translate3d(0, -30%, 0);
-    transform: translate3d(0, -30%, 0); }
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0); }
   50% {
-    -webkit-transform: translate3d(0, -5%, 0);
-    transform: translate3d(0, -5%, 0); }
+    -webkit-transform: translate3d(0, -15%, 0);
+    transform: translate3d(0, -15%, 0); }
   100% {
-    -webkit-transform: translate3d(0, -30%, 0);
-    transform: translate3d(0, -30%, 0); } }
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0); } }
 .p_delivery__text p {
   text-indent: 3rem;
   text-align: justify; }
@@ -10250,6 +10250,13 @@ button.swiper-pagination-bullet {
   font-family: 'Baltica';
   font-size: 2rem;
   line-height: 2.3rem; }
+  .p_contact__title a {
+    color: #484848 !important;
+    font-family: 'Baltica';
+    font-size: 2rem;
+    line-height: 2.3rem; }
+    .p_contact__title a:hover {
+      text-decoration: none; }
 .p_contact__img {
   width: 100%;
   height: 450px; }

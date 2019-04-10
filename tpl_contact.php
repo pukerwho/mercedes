@@ -15,8 +15,18 @@ Template Name: Контакты
 				<div class="mb-3">
 					Телефон горячей линии:
 				</div>
+				<div class="p_contact__title mb-3">
+					<a href="tel:8-800-800-00-00">
+						8-800-800-00-00
+					</a>
+				</div>
+				<div class="mb-3">
+					Email:
+				</div>
 				<div class="p_contact__title mb-5">
-					8-800-800-00-00
+					<a href="mailto:Medexpressonline@gmail.com">
+						Medexpressonline@gmail.com
+					</a>
 				</div>
 				<div class="mb-4">
 					Наш адрес: Россия, г. Москва, 123112, Пресненская набережная, д.12, ММДЦ «Москва-Сити», Башня «Федерация Запад», 45 этаж, офис №82

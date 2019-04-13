@@ -73,6 +73,7 @@ function theme_name_scripts() {
     wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js','','',true);
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', '','',true);
     wp_register_script( 'loadmore', get_stylesheet_directory_uri() . '/js/loadmore.js', array('jquery'), true );
+    wp_register_script( 'loadmore_photoreviews', get_stylesheet_directory_uri() . '/js/loadmore_photoreviews.js', array('jquery'), true );
 
     wp_localize_script( 'loadmore', 'loadmore_params', array(
         'ajaxurl' => site_url() . '/wp-admin/admin-ajax.php', // WordPress AJAX
@@ -82,6 +83,15 @@ function theme_name_scripts() {
     ), true );
  
     wp_enqueue_script( 'loadmore');
+
+    wp_localize_script( 'loadmore_photoreviews', 'loadmore_photoreviews_params', array(
+        'ajaxurl' => site_url() . '/wp-admin/admin-ajax.php', // WordPress AJAX
+        'posts' => json_encode( $custom_query_photo_reviews->query_vars ), // everything about your loop is here
+        'current_page' => get_query_var( 'paged' ) ? get_query_var('paged') : 1,
+        'total' => $custom_query_photo_reviews->max_num_pages
+    ), true );
+ 
+    wp_enqueue_script( 'loadmore_photoreviews');
 };
 
 //подключаем стили к админке
@@ -110,6 +120,25 @@ function loadmore_ajax_handler(){
 
 add_action('wp_ajax_loadmore', 'loadmore_ajax_handler'); 
 add_action('wp_ajax_nopriv_loadmore', 'loadmore_ajax_handler');
+
+//Загрузить Фото отзывы
+function loadmore_photoreviews_ajax_handler(){
+  // prepare our arguments for the query
+  $args = json_decode( stripslashes( $_POST['query'] ), true );
+  $args['paged'] = $_POST['page'] + 5; 
+  $args['post_status'] = 'publish';
+  $args['post_type'] = 'reviews';
+  query_posts( $args );
+  $custom_query_photo_reviews = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 5, 'paged' => $args['paged'], 'orderby' => 'menu_order' ) );
+  if ($custom_query_photo_reviews->have_posts()) : while ($custom_query_photo_reviews->have_posts()) : $custom_query_photo_reviews->the_post();
+    get_template_part( 'blocks/photo_review' );
+  endwhile; 
+  endif;
+  die;
+}
+
+add_action('wp_ajax_loadmore_photoreviews', 'loadmore_photoreviews_ajax_handler'); 
+add_action('wp_ajax_nopriv_loadmore_photoreviews', 'loadmore_photoreviews_ajax_handler');
 
 function create_post_type() {
   register_post_type( 'news',

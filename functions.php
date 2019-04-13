@@ -125,11 +125,11 @@ add_action('wp_ajax_nopriv_loadmore', 'loadmore_ajax_handler');
 function loadmore_photoreviews_ajax_handler(){
   // prepare our arguments for the query
   $args = json_decode( stripslashes( $_POST['query'] ), true );
-  $args['paged'] = $_POST['page'] + 5; 
+  $args['paged'] = $_POST['page'] + 1; 
   $args['post_status'] = 'publish';
   $args['post_type'] = 'reviews';
   query_posts( $args );
-  $custom_query_photo_reviews = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 5, 'paged' => $args['paged'], 'orderby' => 'menu_order' ) );
+  $custom_query_photo_reviews = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 5, 'paged' => $args['paged'] ) );
   if ($custom_query_photo_reviews->have_posts()) : while ($custom_query_photo_reviews->have_posts()) : $custom_query_photo_reviews->the_post();
     get_template_part( 'blocks/photo_review' );
   endwhile; 

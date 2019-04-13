@@ -58,12 +58,23 @@ Template Name: Отзывы
 	<div class="container">
 		<div class="row mb-5">
 			<div class="col-md-12">
-				<div class="p_reviews__photos">
-					<?php 
-					$custom_query_photo_reviews = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 5 ) );
-					  if ($custom_query_photo_reviews->have_posts()) : while ($custom_query_photo_reviews->have_posts()) : $custom_query_photo_reviews->the_post(); ?>
-				  	<?php get_template_part( 'blocks/photo_review' ); ?>
-					<?php endwhile; endif; ?>
+				<div class="pc-show">
+					<div class="p_reviews__photos">
+						<?php 
+						$custom_query_photo_reviews = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 5 ) );
+						  if ($custom_query_photo_reviews->have_posts()) : while ($custom_query_photo_reviews->have_posts()) : $custom_query_photo_reviews->the_post(); ?>
+					  	<?php get_template_part( 'blocks/photo_review' ); ?>
+						<?php endwhile; endif; ?>
+					</div>
+				</div>
+				<div class="mobile-show">
+					<div class="p_reviews__photos">
+						<?php 
+						$custom_query_photo_reviews = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => 6 ) );
+							  if ($custom_query_photo_reviews->have_posts()) : while ($custom_query_photo_reviews->have_posts()) : $custom_query_photo_reviews->the_post(); ?>
+						  	<?php get_template_part( 'blocks/photo_review' ); ?>
+						<?php endwhile; endif; ?>
+					</div>
 				</div>
 				<!-- <div class="swiper-container swiper-review-photo">
 			    <div class="swiper-wrapper">
@@ -87,8 +98,15 @@ Template Name: Отзывы
 		</div>
 		<div class="row mb-5">
 			<div class="col-md-12 text-center">
-				<div class="my-btn-more photo-review-more">
-					Загрузить еще
+				<div class="pc-show">
+					<div class="my-btn-more photo-review-more">
+						Загрузить еще
+					</div>	
+				</div>
+				<div class="mobile-show">
+					<div class="my-btn-more photo-review-mobile-more">
+						Загрузить еще
+					</div>
 				</div>
 			</div>
 		</div>

@@ -11785,6 +11785,9 @@ html.lb-disable-scrolling {
     margin-bottom: 1.5rem; }
 
   /* Reviews */
+  .p_reviews__photos {
+    -ms-grid-columns: 1fr [2];
+    grid-template-columns: repeat(2, 1fr); }
   .p_reviews .swiper-slide {
     padding: 0 20px; }
   .p_reviews .swiper-button-next {

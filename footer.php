@@ -20,7 +20,7 @@
     						</div>
     					</a>
                         <a href="#" data-toggle="modal" data-target="#forDoctorModal">
-                            <div class="footer__item-title mb-4">
+                            <div class="footer__item-title">
                                 Информация для врачей
                             </div>
                         </a>

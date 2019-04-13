@@ -55,7 +55,7 @@ Template Name: Отзывы
 	</div>
 
 	<!-- Фото отзывы --> 
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row mb-5">
 			<div class="col-md-12">
 				<div class="swiper-container swiper-review-photo">
@@ -78,7 +78,7 @@ Template Name: Отзывы
       	<div class="swiper-button-prev swiper-review-photo-button-prev"></div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 
 <?php get_footer(); ?>

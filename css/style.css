@@ -10194,6 +10194,8 @@ button.swiper-pagination-bullet {
     -webkit-animation: background_position 25s ease-in-out infinite;
     animation: background_position 25s ease-in-out infinite;
     z-index: 1; }
+    .b_mainslider .swiper-out img {
+      width: 100%; }
   .b_mainslider .swiper-in {
     position: absolute;
     z-index: 3;

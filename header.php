@@ -17,6 +17,7 @@
 
     wp_head();
 	?>
+  <script charset="UTF-8" src="//cdn.sendpulse.com/js/push/31a684b537becfe7051f87dc2c5c822f_0.js" async></script>
 </head>
 
 <body <?php echo body_class(); ?>>

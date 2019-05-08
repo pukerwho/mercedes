@@ -73,9 +73,9 @@
                 ]); ?>
               </div>
               <div class="header__social">
-                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                <li><a href="https://vk.com/club182018126" target="_blank"><i class="fab fa-vk"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCG911p49DUgelySVUJQzY8w" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
               </div>
               <div class="header__contact">
                 <a href="tel:8-800-800-80-80">8-800-800-80-80</a>

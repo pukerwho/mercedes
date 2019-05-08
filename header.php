@@ -74,7 +74,7 @@
               </div>
               <div class="header__social">
                 <li><a href="https://vk.com/club182018126" target="_blank"><i class="fab fa-vk"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCG911p49DUgelySVUJQzY8w" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCgTBwZhoLSXSU7FPd6NYCAg" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
               </div>
               <div class="header__contact">

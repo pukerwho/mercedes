@@ -45,7 +45,7 @@ Template Name: Отзывы
 		</div>
 		<div class="row mb-5">
 			<div class="col-md-12 text-center">
-				<a href="https://www.youtube.com/channel/UCG911p49DUgelySVUJQzY8w" target="_blank">
+				<a href="https://www.youtube.com/channel/UCgTBwZhoLSXSU7FPd6NYCAg" target="_blank">
 					<div class="my-btn-more">
 						Смотреть больше
 					</div>

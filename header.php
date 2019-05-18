@@ -18,6 +18,16 @@
     wp_head();
 	?>
   <script charset="UTF-8" src="//cdn.sendpulse.com/js/push/31a684b537becfe7051f87dc2c5c822f_0.js" async></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140429702-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140429702-1');
+  </script>
+  
 </head>
 
 <body <?php echo body_class(); ?>>

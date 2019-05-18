@@ -24,9 +24,9 @@
                                 Информация для врачей
                             </div>
                         </a>
-                        <a href="tel:8-800-800-80-80" class="footer__phone">
+                        <a href="tel:88005053732" class="footer__phone">
                             <div class="footer__item-title">
-                                8-800-800-80-80
+                                8-800-505-37-32
                             </div>
                         </a>
     				</div>
@@ -70,7 +70,7 @@
                     <div class="text-center">
                         <span>За более подробной информацией о сотрудничестве обращайтесь по номеру:</span>
                         <br><br>
-                        <span class="font-weight-bold lead">8-800-800-80-80</span>
+                        <span class="font-weight-bold lead">8-800-505-37-32</span>
                     </div>
                     
                 </div>

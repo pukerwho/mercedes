@@ -102,7 +102,7 @@
                 <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
               </div>
               <div class="header__contact">
-                <a href="tel:8-800-800-80-80">8-800-800-80-80</a>
+                <a href="tel:88005053732">8-800-505-37-32</a>
               </div>
             </div>
           </div>

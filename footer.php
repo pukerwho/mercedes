@@ -45,6 +45,13 @@
     		<div class="row">
     			<div class="col-md-12 text-center">
     				<div class="footer__copyright">
+                        <?php if( !is_page_template( 'tpl_main.php' )): ?>
+                            2019 &copy; Медэкспресс.рус
+                        <? else: ?>
+                            2019 &copy; 
+                            <span typeof="v:Breadcrumb"> <a href="http://xn--d1abbthvhgda9j.xn--p1acf/" rel="v:url" property="v:title" class="text-white"> Медэкспресс.рус</a> › </span> <span typeof="v:Breadcrumb"> <a href="http://xn--d1abbthvhgda9j.xn--p1acf/#gepatitC" rel="v:url" property="v:title" class="text-white">Лечение гепатита С</a> </span>
+                        <?php endif ?>
+                        <br><br>
     					Разработка сайта: <a href="https://timeto.top/" target="_blank">TimeToTop</a>
     				</div>
     			</div>
